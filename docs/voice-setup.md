@@ -23,7 +23,7 @@ characters:
 #!/usr/bin/env bash
 # usage: ./speak-say.sh "text to speak"
 echo "$1" > /tmp/speak-input.txt
-say -f /tmp/speak-input.txt -v Daniel -r 165
+say -f /tmp/speak-input.txt -v Samantha -r 180
 rm -f /tmp/speak-input.txt
 ```
 

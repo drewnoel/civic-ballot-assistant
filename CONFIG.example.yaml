@@ -17,7 +17,7 @@ voice:
   #   "none"       - text only
   engine: "say"
   voice_name: ""        # e.g. a macOS `say -v '?'` voice name, or a cloud-engine voice ID
-  rate: 165              # words per minute, "say" engine only; ignored by cloud engines
+  rate: 180              # words per minute, "say" engine only; ignored by cloud engines
 
 # Pacing defaults — these just set the starting point; confirm with the user at the start of
 # every real session rather than assuming these always apply (see SKILL.md §0).

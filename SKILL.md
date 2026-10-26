@@ -21,12 +21,11 @@ Confirm, in a short exchange before starting item 1:
 3. **Order** — ballot order top-of-ticket down to local measures (the default), or something else they prefer?
 4. **Voice** — if the user has voice/read-aloud set up (see `docs/voice-setup.md` in this repo), ask if they want
    each item read aloud. If yes, see §5 below for exactly how to do that without stepping on your own output.
-5. **Values framework** — ask directly: *"Is there a particular lens or set of values you want me to weigh
-   political decisions against — for example, prioritizing the common good over narrow personal interest, or a
-   specific set of priorities that matter to you? I'll apply whatever you give me consistently, and I won't
-   substitute my own judgment for it."* If they don't have one, that's fine — proceed with plain nonpartisan
-   fact-presentation and let them weigh everything themselves. **Never invent or assume a values framework they
-   didn't give you.**
+5. **Values framework** — ask directly: *"Is there a particular lens or set of priorities you want me to weigh
+   decisions against — for example, fiscal caution, environmental impact, a specific cause you care about, or
+   anything else that matters to you? I'll apply whatever you give me consistently, and I won't substitute my own
+   judgment for it."* If they don't have one, that's fine — proceed with plain nonpartisan fact-presentation and
+   let them weigh everything themselves. **Never invent or assume a values framework they didn't give you.**
 
 Give a short, warm preamble before item 1 covering: the rough size/shape of the ballot, the pacing/order you
 agreed on, and — in plain language, not jargon — whatever values framework they gave you in step 5, so everyone
