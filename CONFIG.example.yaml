@@ -1,0 +1,26 @@
+# Civic Ballot Assistant — config template
+# Copy this file to CONFIG.yaml and fill in your own values. Don't commit CONFIG.yaml anywhere
+# public if you fork this repo — it's meant to stay local to you.
+
+# Where your tracker file should live. Keep this OUTSIDE any folder that syncs to a public
+# repo, a shared drive, or cloud storage you don't fully control. A plain local folder is safest.
+tracker_path: "~/ballot-notes/my-ballot-tracker.md"
+
+# Voice / read-aloud settings. Entirely optional — delete this whole section, or set enabled to
+# false, to use text-only. See docs/voice-setup.md for setting up any of the engines below.
+voice:
+  enabled: false
+  # engine options (see docs/voice-setup.md for setup instructions for each):
+  #   "say"        - macOS built-in, free, fully local, no account/API key needed
+  #   "elevenlabs" - paid cloud API, most natural-sounding voices, needs an API key
+  #   "openai"     - paid cloud API (OpenAI TTS), needs an API key
+  #   "none"       - text only
+  engine: "say"
+  voice_name: ""        # e.g. a macOS `say -v '?'` voice name, or a cloud-engine voice ID
+  rate: 165              # words per minute, "say" engine only; ignored by cloud engines
+
+# Pacing defaults — these just set the starting point; confirm with the user at the start of
+# every real session rather than assuming these always apply (see SKILL.md §0).
+defaults:
+  one_item_at_a_time: true
+  order: "top_of_ticket_to_local"   # or "propositions_first", or anything else the user wants
